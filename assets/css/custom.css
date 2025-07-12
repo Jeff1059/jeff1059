@@ -1,21 +1,44 @@
-:root {
-  --primary-color: #F1F6F6;
-  --secondary-color: #8F9499;
-  --accent-color: #F58416;
-  --text-color: #A66140;
-  --background-color: #151416;
-}
+    :root {
+      --primary-color: #2A9D8F;
+      --secondary-color: #E9C46A;
+      --accent-color: #F4A261;
+      --text-color: #264653;
+      --background-color: #FDFDFD;
+    }
 
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: Arial, sans-serif;
-}
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      font-family: Arial, sans-serif;
+    }
 
-h1 {
-  color: var(--primary-color);
-}
+    h1 {
+      color: var(--primary-color);
+    }
 
-a {
-  color: var(--accent-color);
-}
+    a {
+      color: var(--accent-color);
+    }
+
+    /* Bootstrap override */
+    .btn-primary {
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+    }
+
+    .btn-primary:hover {
+      background-color: #21867a; /* version plus sombre pour le hover */
+      border-color: #21867a;
+    }
+
+    .btn-secondary {
+      background-color: var(--secondary-color);
+      border-color: var(--secondary-color);
+      color: #000;
+    }
+
+    .btn-secondary:hover {
+      background-color: #d4ab4f;
+      border-color: #d4ab4f;
+      color: #000;
+    }
