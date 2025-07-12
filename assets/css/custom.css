@@ -1,16 +1,15 @@
 :root {
-  /* Couleurs de base */
-    --bs-light:      #f0d0dd,
-    --bs-dark:       #131311,
-    --bs-primary:    #0027e4,
-    --bs-secondary:  #435ed5,
-    --bs-info:       #989bea,
-    --bs-accent-color:    #3dcd27,
-    --bs-accent2:    #4c505f,
-    --bs-accent3:    #bca4b8,
-    --bs-success:    #00ae65,
-    --bs-warning:    #e4ce00,
-    --bs-danger:     #f51e00,
+    --bs-light: #f0d0dd;
+    --bs-dark: #131311,
+    --bs-primary: #0027e4;
+    --bs-secondary: #435ed5;
+    --bs-info: #989bea;
+    --bs-accent-color: #3dcd27;
+    --bs-accent2: #4c505f;
+    --bs-accent3: #bca4b8;
+    --bs-success: #00ae65;
+    --bs-warning: #e4ce00;
+    --bs-danger: #f51e00;
 }
 
 /* Exemple : customiser le texte global */
